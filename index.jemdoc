@@ -6,43 +6,49 @@
 
 ~~~
 {}{img_left}{me_1.jpeg}{alt text}{245px}{245px}
-[https://people.eecs.berkeley.edu/~mert_cemri Mert Cemri]\n 
-Ph.D. Student at UC Berkeley \n
-Berkeley, CA, United States \n
-\n
-Email: cemri@berkeley.edu \n
-\[[https://scholar.google.com/citations?user=sMEFwf8AAAAJ&hl=en Google Scholar]\]\[[Mert_Cemri_Resume_Final.pdf Curriculem Vitae]\] \n
+[https://people.eecs.berkeley.edu/~mert_cemri Mert Cemri]
+Ph.D. Student at UC Berkeley
+Berkeley, CA, United States
+
+Email: cemri@berkeley.edu
+
+\[[https://scholar.google.com/citations?user=sMEFwf8AAAAJ&hl=en Google Scholar]\] \[[Mert_Cemri_Resume_Final_11_18_25.pdf Curriculum Vitae]\]
 ~~~
 
+I am a Ph.D. student in the [https://bair.berkeley.edu Berkeley AI Research (BAIR)] and [https://sky.cs.berkeley.edu Sky Computing] Labs at UC Berkeley, advised by Ion Stoica, Kannan Ramchandran, and Alex Dimakis.
 
+I am also a part of the [https://bliss.eecs.berkeley.edu Berkeley Laboratory for Information and System Sciences (BLISS)] and serve as an organizer of the [https://bliss.eecs.berkeley.edu/Seminar/index.html BLISS Seminar]. Feel free to contact me if you want to participate in our seminar!
 
-#at Baton Rouge, Louisiana, USA. (March 19, 2021)
-# at Grand Isle State Park, Louisiana, USA. (Oct 6, 2018)
+My research focuses on efficient machine learning and agentic systems, including multi-agent large language model (LLM) systems, test-time scaling, and discrete generative models.
 
-#== News
-#- \[05-15-2020\] "List-wise fairness criterion for point processes" is accepted by KDD'20!
-#- \[05-04-2020\] Defended my Ph.D. dissertation titled "Predictive modeling of asynchronous event sequence data"!
-#- \[05-25-2019\] An extention of our ICDM'18 work "Local low-rank Hawkes processes for modeling temporal user-item interactions" is accepted by Knowledge and Information Systems(KAIS)!
-#- \[10-31-2018\] "Geometric Hawkes processes with graph convolutional recurrent neural networks" is accepted by AAAI'19! 
-#- \[08-18-2018\] "Local low-rank Hawkes processes for temporal user-item interactions" is accepted by ICDM'18!
-#- \[08-18-2018\] "Demographic inference via knowledge transfer in cross-domain recommender systems" is accepted by ICDM'18!
+== Selected publications
 
-#== About me
-#I'm currently working at [https://www.amazon.com/ Amazon] as an Applied Scientist. I got my Ph.D. in Computer Science at Louisiana State University, under the guidance of Dr. [http://csc.lsu.edu/~msun/ Mingxuan Sun]. My research focuses on developing computationally efficient machine learning as well as deep learning models and algorithms, with applications in recommender systems, time-series analysis, computer vision, computer graphics, natural language processing, and fairness.
+- Why Do Multi-Agent LLM Systems Fail?
+\n M. Cemri, M. Pan, S. Yang, L. Agrawal, B. Chopra, R. Tiwari, K. Keutzer, A. Parameswaran, D. Klein, K. Ramchandran, M. Zaharia, J. E. Gonzalez, I. Stoica.
+*Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2025.*
 
-#== Education 
-#- Ph.D. in Computer Science, Louisiana State University, Aug. 2016 - Aug. 2020
-#- M.S. in Solid Mechanics, University of Science and Technology of China, Sep. 2013 - Jun. 2016
-#- B.S. in Theoretical and Applied Mechanics, University of Science and Technology of China, Sep. 2009 - Jun. 2013
+- SPECS: Faster Test-Time Scaling through Speculative Drafts
+\n M. Cemri, N. Rajaraman, R. Tiwari, X. Liu, K. Keutzer, I. Stoica, K. Ramchandran, A. Beirami, Z. Sun.
+*ES-FoMo III: 3rd Workshop on Efficient Systems for Foundation Models (ICML), 2025.*
 
-#== Research Interests 
-#- Statistical Machine Learning, Deep Learning, Point Process, Optimization, Fairness
-#- Data Mining, Information Retrieval, Recommender System 
-#- Computer Vision, Computer Graphics, Natural Language Processing
+- DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning
+\n H. Bai, Y. Zhou, M. Cemri, J. Pan, A. Suhr, S. Levine, A. Kumar.
+*Advances in Neural Information Processing Systems (NeurIPS), Main Track, 2024.*
 
-#== Visitors
-#~~~
-#{}{raw}
-#<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=weAawplBogRZm4707J2DPkv1Pn3WYzslKBDineUl-bw'></script>
-#~~~
+- Asynchronous Social Learning
+\n M. Cemri, V. Bordignon, M. Kayaalp, V. Shumovskaia, A. H. Sayed.
+*IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2023.*
 
+- Discovering Influencers in Opinion Formation over Social Graphs
+\n V. Shumovskaia, M. Kayaalp, M. Cemri, A. H. Sayed.
+*IEEE Open Journal of Signal Processing, 2023.*
+
+For a complete list of publications, please see my [https://scholar.google.com/citations?user=sMEFwf8AAAAJ&hl=en Google Scholar] profile or my [Mert_Cemri_Resume_Final_11_18_25.pdf CV].
+
+== Experience
+
+I have interned as a machine learning engineer at Apple, working on agentic post-training for foundation models, and previously conducted research at EPFL with Ali H. Sayed on distributed optimization and social learning, and at Bilkent University with Tolga Çukur and Aykut Koç on neural methods for natural language and graph-structured data.
+
+== Contact
+
+The best way to reach me is by email at cemri@berkeley.edu
