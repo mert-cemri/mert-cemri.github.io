@@ -1,100 +1,220 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<link rel="icon" type="image/png" href="favicon.png?v=2" />
-<link rel="icon" type="image/x-icon" href="favicon.ico?v=2" />
-<link rel="apple-touch-icon" href="apple-touch-icon.png?v=2" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mert Cemri</title>
+<meta name="description" content="Mert Cemri is a Ph.D. student at UC Berkeley working on efficient machine learning and agentic systems.">
+<link rel="icon" type="image/png" href="favicon.png?v=2">
+<link rel="icon" type="image/x-icon" href="favicon.ico?v=2">
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1f2328;
+    --muted: #656d76;
+    --link: #0b57a4;
+    --rule: #e6e8eb;
+    --accent: #003262; /* Berkeley blue */
+    --highlight: #b8860b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1216;
+      --text: #e6e8eb;
+      --muted: #9aa4ae;
+      --link: #7cb3ff;
+      --rule: #262c33;
+      --accent: #a8c3e6;
+      --highlight: #e0b44a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16.5px;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 56px 24px 72px;
+  }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Header */
+  header {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  header h1 {
+    margin: 0 0 4px;
+    font-size: 2.1em;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    color: var(--accent);
+  }
+  header .role { margin: 0 0 14px; color: var(--muted); }
+  header img {
+    flex: 0 0 auto;
+    width: 168px;
+    height: 168px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  .links { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 0; margin: 0; list-style: none; }
+
+  /* Sections */
+  h2 {
+    margin: 44px 0 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+    font-size: 1.2em;
+    font-weight: 650;
+  }
+  p { margin: 0 0 14px; }
+
+  /* Publications */
+  ol.pubs { list-style: none; padding: 0; margin: 0; }
+  ol.pubs li { padding: 12px 0; border-bottom: 1px solid var(--rule); }
+  ol.pubs li:last-child { border-bottom: none; }
+  .pub-title { font-weight: 600; }
+  .pub-authors { display: block; margin-top: 2px; }
+  .pub-venue { display: block; color: var(--muted); font-size: 0.94em; }
+  .pub-venue .award { color: var(--highlight); font-weight: 600; }
+  .pub-links { font-size: 0.9em; margin-left: 4px; white-space: nowrap; }
+  .pub-links a + a::before { content: "·"; color: var(--muted); margin: 0 6px; }
+  .me { font-weight: 600; }
+  .footnote { color: var(--muted); font-size: 0.9em; margin-top: 12px; }
+
+  /* Experience & awards */
+  ul.plain { list-style: none; padding: 0; margin: 0; }
+  ul.plain li { padding: 6px 0; }
+  ul.plain .when { color: var(--muted); font-size: 0.94em; }
+  ul.plain .what { display: block; }
+
+  footer { margin-top: 56px; color: var(--muted); font-size: 0.88em; }
+
+  @media (max-width: 600px) {
+    main { padding: 36px 18px 56px; }
+    header { flex-direction: column-reverse; gap: 20px; }
+    header img { width: 136px; height: 136px; }
+    body { font-size: 16px; }
+  }
+</style>
 </head>
 <body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Home</div>
-<div class="menu-item"><a href="index.html" class="current">About&nbsp;me</a></div>
-</td>
-<td id="layout-content">
-<div id="toptitle">
-<h1>Mert Cemri</h1>
-</div>
-<table class="imgtable"><tr><td>
-<img src="me_1.jpeg" alt="alt text" width="245px" height="245px" />&nbsp;</td>
-<td align="left"><p><a href="https://mert-cemri.github.io">Mert Cemri</a>
-Ph.D. Student at UC Berkeley
-Berkeley, CA, United States</p>
-<p>Email: cemri@berkeley.edu</p>
-<p>[<a href="https://scholar.google.com/citations?user=sMEFwf8AAAAJ&amp;hl=en">Google Scholar</a>] [<a href="Mert_Cemri_CV.pdf">Curriculum Vitae</a>]</p>
-</td></tr></table>
+<main>
+
+<header>
+  <div>
+    <h1>Mert Cemri</h1>
+    <p class="role">Ph.D. Student, EECS, UC Berkeley</p>
+    <ul class="links">
+      <li><a href="mailto:cemri@berkeley.edu">Email</a></li>
+      <li><a href="https://scholar.google.com/citations?user=sMEFwf8AAAAJ&amp;hl=en">Google Scholar</a></li>
+      <li><a href="https://www.linkedin.com/in/mert-cemri-4a727913a">LinkedIn</a></li>
+      <li><a href="Mert_Cemri_CV.pdf">CV</a></li>
+    </ul>
+  </div>
+  <img src="me_1.jpeg" alt="Photo of Mert Cemri">
+</header>
+
+<h2>About</h2>
 <p>I am a Ph.D. student in the <a href="https://bair.berkeley.edu">Berkeley AI Research (BAIR)</a> and <a href="https://sky.cs.berkeley.edu">Sky Computing</a> Labs at UC Berkeley, advised by Ion Stoica, Kannan Ramchandran, and Alex Dimakis.</p>
-<p>I am also a part of the <a href="https://bliss.eecs.berkeley.edu">Berkeley Laboratory for Information and System Sciences (BLISS)</a> and serve as an organizer of the <a href="https://bliss.eecs.berkeley.edu/Seminar/index.html">BLISS Seminar</a>. Feel free to contact me if you want to participate in our seminar!</p>
-<p>My research focuses on efficient machine learning and agentic systems, including multi-agent large language model (LLM) systems, test-time scaling, and discrete generative models.</p>
+<p>My research focuses on efficient machine learning and agentic systems, including multi-agent large language model (LLM) systems, LLM-driven discovery and optimization, test-time scaling, and discrete generative models.</p>
+<p>I am also a part of the <a href="https://bliss.eecs.berkeley.edu">Berkeley Laboratory for Information and System Sciences (BLISS)</a> and an organizer of the <a href="https://bliss.eecs.berkeley.edu/Seminar/index.html">BLISS Seminar</a>. Feel free to reach out if you would like to give a talk.</p>
+
 <h2>Selected publications</h2>
-<ul>
-<li><p>Fantastic Adaptive Taxonomies and How to Use Them
-<br />M. Cemri*, A. Cojocaru*, M. Pan, S. Liu, S. Agarwal, A. Krentsel, J. Tang, K. Ramchandran, J. E. Gonzalez, M. Zaharia, A. Dimakis, I. Stoica.
-<b>ICML Workshop on Failure Modes in Agentic AI (FAGEN), 2026. Best Paper Award.</b></p>
-</li>
-</ul>
-<ul>
-<li><p>AdaEvolve: Adaptive LLM Driven Zeroth-Order Optimization
-<br />M. Cemri, S. Agrawal, A. Gupta, S. Liu, A. Cheng, Q. Mang, A. Naren, L. E. Erdogan, K. Sen, M. Zaharia, A. Dimakis, I. Stoica.
-<b>arXiv preprint arXiv:2602.20133, 2026.</b></p>
-</li>
-</ul>
-<ul>
-<li><p>EvoX: Meta-Evolution for Automated Discovery
-<br />S. Liu, S. Agarwal, M. Maheswaran, M. Cemri, Z. Li, Q. Mang, A. Naren, E. Boneh, A. Cheng, M. Z. Pan, A. Du, K. Keutzer, A. Cheung, A. G. Dimakis, K. Sen, M. Zaharia, I. Stoica.
-<b>Conference on Language Modeling (COLM), 2026.</b></p>
-</li>
-</ul>
-<ul>
-<li><p>SkyDiscover: A Flexible, Adaptive Framework for AI-Driven Scientific and Algorithmic Discovery
-<br />S. Liu, M. Cemri, S. Agarwal, A. Krentsel, A. Naren, Q. Mang, Z. Li, A. Gupta, M. Maheswaran, A. Cheng, M. Pan, E. Boneh, K. Ramchandran, K. Sen, M. Zaharia, A. G. Dimakis, I. Stoica.
-<b>ACM Conference on AI and Agentic Systems (CAIS), 2026. Industry Spotlight.</b></p>
-</li>
-</ul>
-<ul>
-<li><p>Why Do Multi-Agent LLM Systems Fail?
-<br />M. Cemri, M. Pan, S. Yang, L. Agrawal, B. Chopra, R. Tiwari, K. Keutzer, A. Parameswaran, D. Klein, K. Ramchandran, M. Zaharia, J. E. Gonzalez, I. Stoica.
-<b>Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2025. Spotlight.</b></p>
-</li>
-</ul>
-<ul>
-<li><p>SPECS: Faster Test-Time Scaling through Speculative Drafts
-<br />M. Cemri, N. Rajaraman, R. Tiwari, X. Liu, K. Keutzer, I. Stoica, K. Ramchandran, A. Beirami, Z. Sun.
-<b>ES-FoMo III: 3rd Workshop on Efficient Systems for Foundation Models (ICML), 2025.</b></p>
-</li>
-</ul>
-<ul>
-<li><p>DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning
-<br />H. Bai, Y. Zhou, M. Cemri, J. Pan, A. Suhr, S. Levine, A. Kumar.
-<b>Advances in Neural Information Processing Systems (NeurIPS), Main Track, 2024.</b></p>
-</li>
-</ul>
-<ul>
-<li><p>Asynchronous Social Learning
-<br />M. Cemri, V. Bordignon, M. Kayaalp, V. Shumovskaia, A. H. Sayed.
-<b>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2023.</b></p>
-</li>
-</ul>
-<ul>
-<li><p>Discovering Influencers in Opinion Formation over Social Graphs
-<br />V. Shumovskaia, M. Kayaalp, M. Cemri, A. H. Sayed.
-<b>IEEE Open Journal of Signal Processing, 2023.</b></p>
-</li>
-</ul>
-<p>* denotes equal contribution.</p>
-<p>For a complete list of publications, please see my <a href="https://scholar.google.com/citations?user=sMEFwf8AAAAJ&amp;hl=en">Google Scholar</a> profile or my <a href="Mert_Cemri_CV.pdf">CV</a>.</p>
+<ol class="pubs">
+  <li>
+    <span class="pub-title">Fantastic Adaptive Taxonomies and How to Use Them</span>
+    <span class="pub-links"><a href="https://arxiv.org/abs/2607.16387">arXiv</a></span>
+    <span class="pub-authors"><span class="me">M. Cemri</span>*, A. Cojocaru*, M. Pan, S. Liu, S. Agarwal, A. Krentsel, J. Tang, K. Ramchandran, J. E. Gonzalez, M. Zaharia, A. Dimakis, I. Stoica</span>
+    <span class="pub-venue">ICML Workshop on Failure Modes in Agentic AI (FAGEN), 2026 · <span class="award">Best Paper Award</span></span>
+  </li>
+  <li>
+    <span class="pub-title">AdaEvolve: Adaptive LLM Driven Zeroth-Order Optimization</span>
+    <span class="pub-links"><a href="https://arxiv.org/abs/2602.20133">arXiv</a></span>
+    <span class="pub-authors"><span class="me">M. Cemri</span>*, S. Agrawal*, A. Gupta, S. Liu, A. Cheng, Q. Mang, A. Naren, L. E. Erdogan, K. Sen, M. Zaharia, A. Dimakis, I. Stoica</span>
+    <span class="pub-venue">arXiv preprint, 2026</span>
+  </li>
+  <li>
+    <span class="pub-title">EvoX: Meta-Evolution for Automated Discovery</span>
+    <span class="pub-links"><a href="https://arxiv.org/abs/2602.23413">arXiv</a><a href="https://github.com/skydiscover-ai/skydiscover">Code</a></span>
+    <span class="pub-authors">S. Liu*, S. Agarwal*, M. Maheswaran, <span class="me">M. Cemri</span>, Z. Li, Q. Mang, A. Naren, E. Boneh, A. Cheng, M. Z. Pan, A. Du, K. Keutzer, A. Cheung, A. G. Dimakis, K. Sen, M. Zaharia, I. Stoica</span>
+    <span class="pub-venue">Conference on Language Modeling (COLM), 2026</span>
+  </li>
+  <li>
+    <span class="pub-title">SkyDiscover: A Flexible, Adaptive Framework for AI-Driven Scientific and Algorithmic Discovery</span>
+    <span class="pub-links"><a href="https://github.com/skydiscover-ai/skydiscover">Code</a></span>
+    <span class="pub-authors">S. Liu, <span class="me">M. Cemri</span>, S. Agarwal, A. Krentsel, A. Naren, Q. Mang, Z. Li, A. Gupta, M. Maheswaran, A. Cheng, M. Pan, E. Boneh, K. Ramchandran, K. Sen, M. Zaharia, A. G. Dimakis, I. Stoica</span>
+    <span class="pub-venue">ACM Conference on AI and Agentic Systems (CAIS), 2026 · <span class="award">Industry Spotlight</span></span>
+  </li>
+  <li>
+    <span class="pub-title">Why Do Multi-Agent LLM Systems Fail?</span>
+    <span class="pub-links"><a href="https://arxiv.org/abs/2503.13657">arXiv</a></span>
+    <span class="pub-authors"><span class="me">M. Cemri</span>*, M. Z. Pan*, S. Yang*, L. A. Agrawal, B. Chopra, R. Tiwari, K. Keutzer, A. Parameswaran, D. Klein, K. Ramchandran, M. Zaharia, J. E. Gonzalez, I. Stoica</span>
+    <span class="pub-venue">Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2025 · <span class="award">Spotlight</span></span>
+  </li>
+  <li>
+    <span class="pub-title">SPECS: Faster Test-Time Scaling through Speculative Drafts</span>
+    <span class="pub-links"><a href="https://arxiv.org/abs/2506.15733">arXiv</a></span>
+    <span class="pub-authors"><span class="me">M. Cemri</span>*, N. Rajaraman*, R. Tiwari*, X. Liu, K. Keutzer, I. Stoica, K. Ramchandran, A. Beirami, Z. Sun</span>
+    <span class="pub-venue">ICML Workshop on Efficient Systems for Foundation Models (ES-FoMo III), 2025</span>
+  </li>
+  <li>
+    <span class="pub-title">DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning</span>
+    <span class="pub-links"><a href="https://arxiv.org/abs/2406.11896">arXiv</a></span>
+    <span class="pub-authors">H. Bai*, Y. Zhou*, <span class="me">M. Cemri</span>, J. Pan, A. Suhr, S. Levine, A. Kumar</span>
+    <span class="pub-venue">Advances in Neural Information Processing Systems (NeurIPS), 2024</span>
+  </li>
+  <li>
+    <span class="pub-title">Asynchronous Social Learning</span>
+    <span class="pub-authors"><span class="me">M. Cemri</span>, V. Bordignon, M. Kayaalp, V. Shumovskaia, A. H. Sayed</span>
+    <span class="pub-venue">IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2023</span>
+  </li>
+  <li>
+    <span class="pub-title">Discovering Influencers in Opinion Formation over Social Graphs</span>
+    <span class="pub-links"><a href="https://arxiv.org/abs/2211.13292">arXiv</a></span>
+    <span class="pub-authors">V. Shumovskaia, M. Kayaalp, <span class="me">M. Cemri</span>, A. H. Sayed</span>
+    <span class="pub-venue">IEEE Open Journal of Signal Processing, 2023</span>
+  </li>
+</ol>
+<p class="footnote">* denotes equal contribution. For the full list, see <a href="https://scholar.google.com/citations?user=sMEFwf8AAAAJ&amp;hl=en">Google Scholar</a> or my <a href="Mert_Cemri_CV.pdf">CV</a>.</p>
+
 <h2>Experience</h2>
-<p>I am currently a student researcher in the Systems Research Group at Google, working on AI for systems: using LLM-driven agents to accelerate systems performance research and to synthesize formally verified systems components. I previously interned as a machine learning engineer at Apple, working on agentic post-training for foundation models, and conducted research at EPFL with Ali H. Sayed on distributed optimization and social learning, and at Bilkent University with Tolga Çukur and Aykut Koç on neural methods for natural language and graph-structured data.</p>
+<ul class="plain">
+  <li><span class="what"><strong>Google</strong>, Systems Research Group · Student Researcher</span>
+      <span class="when">Sunnyvale, CA · April 2026 – present · AI for systems: LLM-driven agents for systems performance research and synthesis of formally verified systems components</span></li>
+  <li><span class="what"><strong>Apple</strong>, AI/ML · Machine Learning Intern</span>
+      <span class="when">Cupertino, CA · Summer 2025 · Agentic post-training for foundation models</span></li>
+  <li><span class="what"><strong>EPFL</strong>, Adaptive Systems Lab · Research Intern with Ali H. Sayed</span>
+      <span class="when">Lausanne, Switzerland · Distributed optimization and social learning</span></li>
+  <li><span class="what"><strong>Bilkent University</strong> · Research with Tolga Çukur and Aykut Koç</span>
+      <span class="when">Ankara, Turkey · Neural methods for natural language and graph-structured data</span></li>
+</ul>
+
+<h2>Awards</h2>
+<ul class="plain">
+  <li><span class="what">Best Paper Award, ICML Workshop on Failure Modes in Agentic AI (FAGEN)</span><span class="when">2026</span></li>
+  <li><span class="what">Spotlight, NeurIPS Datasets and Benchmarks Track</span><span class="when">2025</span></li>
+  <li><span class="what">EECS Departmental Fellowship, UC Berkeley</span><span class="when">2023–2024</span></li>
+  <li><span class="what">Research Excellence Award and Academic Excellence Award, Bilkent University</span><span class="when">2023</span></li>
+</ul>
+
 <h2>Contact</h2>
-<p>The best way to reach me is by email at cemri@berkeley.edu</p>
-</td>
-</tr>
-</table>
+<p>The best way to reach me is by email at <a href="mailto:cemri@berkeley.edu">cemri@berkeley.edu</a>.</p>
+
+<footer>Last updated September 2026.</footer>
+
+</main>
 </body>
 </html>
